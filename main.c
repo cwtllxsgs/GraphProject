@@ -47,7 +47,7 @@ int main(int argc, char* argv[]) {
 				printf("%d\n", numberOfVertices(argv[2]));
 			}
 			else if (strcmp(argv[4], "freeman") == 0) {
-				printf("%d\n", freemanNetworkCentrality(argv[2]));
+				printf("%lf\n", freemanNetworkCentrality(argv[2]));
 			}
 		}
 		else if (strcmp(argv[3], "-sp") == 0 || strcmp(argv[3], "--shortestpath") == 0) {
