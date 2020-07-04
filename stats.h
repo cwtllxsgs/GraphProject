@@ -4,6 +4,7 @@
 #define MAXV 66666 
 #define INF  32767
 
+//参考上学期数据结构的教材对邻接表和图声明
 typedef int InfoType;
 typedef struct ANode {
 	int adjvex;	
