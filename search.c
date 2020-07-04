@@ -6,7 +6,7 @@
 
 extern AdjGraph g;
 
-
+//actually..
 int* DFS(AdjGraph* G, int u, int v) {
 	ArcNode *p;
 	int w, i, n;
@@ -59,7 +59,7 @@ int* DFS(AdjGraph* G, int u, int v) {
 		}
 	printf("NULL\n");
 }
-//BFS  ²Î¿¼Êı¾İ½á¹¹½Ì³ÌµÚ5°æP276,277 
+//BFS  å‚è€ƒæ•°æ®ç»“æ„æ•™ç¨‹ç¬¬5ç‰ˆP276,277 
 int* BFS(AdjGraph* G, int u, int v) {
 	ArcNode *p;
 	int w, i, n;
@@ -114,7 +114,7 @@ int* BFS(AdjGraph* G, int u, int v) {
 }
 
 
-//Dijkatra  ²Î¿¼Êı¾İ½á¹¹µÚ5°æP294,295 
+//Dijkatra  å‚è€ƒæ•°æ®ç»“æ„ç¬¬5ç‰ˆP294,295 
 int* Dijkstra(AdjGraph* G, int u, int v){
 	int dist[MAXV];
 	int path[MAXV];
@@ -192,7 +192,7 @@ void Dispath(int dist[], int path[], int S[], int u, int v) {
 	printf("NULL\n");
 }
 
-//ÆÀ·Öº¯Êı Ó¦¸ÃÊÇÕâÑùµÄÃ»´í°É 
+//è¯„åˆ†å‡½æ•° åº”è¯¥æ˜¯è¿™æ ·çš„æ²¡é”™å§ ---æˆ‘å“ªçŸ¥é“å•Šå…„å¼Ÿï¼Ÿ
 char* shortestPath(int u, int v, char algorithm[], char name[]) {
 	char garlic[3][9] = {"DFS", "BFS", "Dijkstra"} ;
 	CreateAdj(name);
