@@ -5,7 +5,7 @@
 int toexplore[MAXV];
 AdjGraph g;
 int u,v,w,degree;
-
+//refer to 数据结构教程（上学期教材）邻接表构造方式
 void CreateAdj(char name[]){
 	FILE* fp;
 	ArcNode* p;
